@@ -1,0 +1,9 @@
+    <servlet>
+		<servlet-name>UploadServlet</servlet-name>
+		<servlet-class>UploadServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UploadServlet</servlet-name>
+		<url-pattern>/UploadServlet</url-pattern>
+	</servlet-mapping>	

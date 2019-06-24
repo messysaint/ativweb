@@ -1,0 +1,392 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<title>jQuery UI Datepicker - Default functionality</title>
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>jQuery UI Example Page</title>
+	<link type="text/css" href="/ivweb/datepicker/css/south-street/jquery-ui-1.8.22.custom.css" rel="stylesheet" />
+	<script type="text/javascript" src="/ivweb/datepicker/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/ivweb/datepicker/js/jquery-ui-1.8.22.custom.min.js"></script>
+
+	<script>
+	$(function() {
+		$( "#format" ).change(function() {
+			$( "#datepicker" ).datepicker( "option", "dateFormat", $( this ).val() );
+		});
+	});
+	</script>
+
+</head>
+
+<body>
+
+<font face="Georgia, Arial, Garamond" size = "2">
+
+<h3>VIN: 2012kiariosx01</h3>
+Year: 2012 &nbsp; &nbsp; &nbsp; &nbsp; Make: KIA &nbsp; &nbsp; &nbsp; &nbsp; Model: Rio<br><br><br>
+
+
+
+<form name="verifyidentity" action=" " method="post">
+
+<table border="0">
+
+  <tr>
+      <td>Date Serviced:</td>
+      <td><input type="text" id="datepicker"></td>
+      <td>Total Cost of Service: &nbsp;</td>
+      <td><input type="text" name="dummy"   maxlength="20" size="20" value=""/> </td>
+  </tr>
+
+  <tr>
+      <td>  </td>
+      <td> 	<select id="format">
+				<option value="yy-mm-dd">ISO 8601 - yy-mm-dd</option>
+			</select> 
+	  </td>
+  </tr>
+
+  <tr>
+      <td>  </td>
+      <td>  </td>
+  </tr>
+
+
+  <tr>
+    <td>1. Engine System:</td>
+    <td>  </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label</td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><textarea rows="5" cols="50">Engine System Notes:</textarea>  </td>
+  </tr>
+
+
+  <tr>
+    <td>2. Fuel Supply System:</td>
+    <td>  </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><textarea rows="5" cols="50">Fuel Supply System Notes:</textarea>  </td>
+  </tr>
+
+
+  <tr>
+    <td>3. Drivetrain System:</td>
+    <td>  </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><textarea rows="5" cols="50">Drivetrain System Notes:</textarea>  </td>
+  </tr>
+
+
+  <tr>
+    <td>4. Engine Cooling System:</td>
+    <td>  </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><textarea rows="5" cols="50">Engine Cooling System Notes:</textarea>  </td>
+  </tr>
+
+
+  <tr>
+    <td>5. Exhaust System:</td>
+    <td>  </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><textarea rows="5" cols="50">Exhaust System Notes:</textarea>  </td>
+  </tr>
+
+
+  <tr>
+    <td>6. Braking System:</td>
+    <td>  </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><textarea rows="5" cols="50">Braking System Notes:</textarea>  </td>
+  </tr>
+
+
+  <tr>
+    <td>7. Electrical System:</td>
+    <td>  </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><textarea rows="5" cols="50">Electrical System Notes:</textarea>  </td>
+  </tr>
+
+
+  <tr>
+    <td>8. Steering System:</td>
+    <td>  </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><textarea rows="5" cols="50">Steering System Notes:</textarea>  </td>
+  </tr>
+
+
+  <tr>
+    <td>9. Suspension System:</td>
+    <td>  </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><textarea rows="5" cols="50">Suspension System Notes:</textarea>  </td>
+  </tr>
+
+
+  <tr>
+    <td>10. Heating/Air Conditioning System:</td>
+    <td>  </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><textarea rows="5" cols="50">Heating/Air Conditioning System Notes:</textarea>  </td>
+  </tr>
+
+
+  <tr>
+    <td>11. Tires:</td>
+    <td>  </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><textarea rows="5" cols="50">Tires Notes:</textarea>  </td>
+  </tr>
+
+
+  <tr>
+    <td>12. Body:</td>
+    <td>  </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><INPUT type="checkbox" name="servicename" value="servicevalue">display label </td>
+  </tr>
+
+  <tr>
+    <td> - </td>
+    <td><textarea rows="5" cols="50">Body Notes:</textarea>  </td>
+  </tr>
+
+
+  <tr>
+      <td>  </td>
+      <td>  </td>
+  </tr>
+
+  <tr>
+      <td>  </td>
+      <td><INPUT type="submit" value="Submit"></td>
+  </tr>
+
+</table>
+
+
+</form>
+
+
+</font>
+
+</body>
+</html>

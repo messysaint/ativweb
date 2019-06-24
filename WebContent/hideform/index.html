@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+
+<script>
+function showhide(a)
+{
+    if(a==1)
+    document.getElementById("myhiddenform").style.display="none";
+    else
+    document.getElementById("myhiddenform").style.display="block";
+}
+</script>
+
+</head>
+<body>
+
+<div id="wrapper" style="width:100%; vertical-align:middle; text-align:center">
+<img src="/FlotSamples/images/waiting_animation.gif" alt="Processing, please wait ..." height="52" width="52">
+</div> 
+
+<br><br><br><br><br><br>
+
+<form id="myhiddenform">
+
+<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+<input type="checkbox" name="vehicle" value="Car">I have a car 
+
+
+ </form>
+ 
+<button onclick="showhide(1)">-</button>
+<button onclick="showhide(2)">+</button>
+
+
+
+<script>
+    document.getElementById("myhiddenform").style.display="none";
+</script>
+
+
+</body>
+</html>
